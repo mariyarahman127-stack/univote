@@ -1,40 +1,33 @@
-[debug] [2026-03-09T17:48:50.676Z] ----------------------------------------------------------------------
-[debug] [2026-03-09T17:48:50.678Z] Command:       H:\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting
-[debug] [2026-03-09T17:48:50.679Z] CLI Version:   15.9.0
-[debug] [2026-03-09T17:48:50.679Z] Platform:      win32
-[debug] [2026-03-09T17:48:50.679Z] Node Version:  v24.13.1
-[debug] [2026-03-09T17:48:50.679Z] Time:          Mon Mar 09 2026 23:48:50 GMT+0600 (Bangladesh Standard Time)
-[debug] [2026-03-09T17:48:50.679Z] ----------------------------------------------------------------------
+[debug] [2026-03-09T17:00:26.860Z] ----------------------------------------------------------------------
+[debug] [2026-03-09T17:00:26.862Z] Command:       H:\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login:ci --no-localhost
+[debug] [2026-03-09T17:00:26.863Z] CLI Version:   15.9.0
+[debug] [2026-03-09T17:00:26.863Z] Platform:      win32
+[debug] [2026-03-09T17:00:26.863Z] Node Version:  v24.13.1
+[debug] [2026-03-09T17:00:26.863Z] Time:          Mon Mar 09 2026 23:00:26 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-03-09T17:00:26.863Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2026-03-09T17:48:50.682Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2026-03-09T17:00:26.864Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
 [error] 
-[error] Error: No currently active project.
-To run this command, you need to specify a project. You have two options:
-- Run this command with --project <alias_or_project_id>.
-- Set an active project by running firebase use --add, then rerun this command.
-To list all the Firebase projects to which you have access, run firebase projects:list.
-To learn about active projects for the CLI, visit https://firebase.google.com/docs/cli#project_aliases
-
-
-[debug] [2026-03-09T17:49:05.478Z] ----------------------------------------------------------------------
-[debug] [2026-03-09T17:49:05.480Z] Command:       H:\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting --project univote-396af
-[debug] [2026-03-09T17:49:05.480Z] CLI Version:   15.9.0
-[debug] [2026-03-09T17:49:05.480Z] Platform:      win32
-[debug] [2026-03-09T17:49:05.480Z] Node Version:  v24.13.1
-[debug] [2026-03-09T17:49:05.481Z] Time:          Mon Mar 09 2026 23:49:05 GMT+0600 (Bangladesh Standard Time)
-[debug] [2026-03-09T17:49:05.481Z] ----------------------------------------------------------------------
+[error] Error: Cannot run login:ci in non-interactive mode.
+[debug] [2026-03-09T17:44:18.854Z] ----------------------------------------------------------------------
+[debug] [2026-03-09T17:44:18.856Z] Command:       H:\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting
+[debug] [2026-03-09T17:44:18.857Z] CLI Version:   15.9.0
+[debug] [2026-03-09T17:44:18.857Z] Platform:      win32
+[debug] [2026-03-09T17:44:18.857Z] Node Version:  v24.13.1
+[debug] [2026-03-09T17:44:18.857Z] Time:          Mon Mar 09 2026 23:44:18 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-03-09T17:44:18.857Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2026-03-09T17:49:05.484Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
-[debug] [2026-03-09T17:49:06.949Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2026-03-09T17:49:06.978Z] Error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
-    at GoogleAuth.getApplicationDefaultAsync (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\google-auth-library\build\src\auth\googleauth.js:287:15)
-    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
-    at async GoogleAuth._GoogleAuth_determineClient (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\google-auth-library\build\src\auth\googleauth.js:834:32)
-    at async GoogleAuth.getClient (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\google-auth-library\build\src\auth\googleauth.js:698:20)
-    at async GoogleAuth.getAccessToken (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\google-auth-library\build\src\auth\googleauth.js:722:24)
-    at async autoAuth (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\requireAuth.js:28:19)
-    at async requireAuth (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\requireAuth.js:90:20)
-    at async requirePermissions (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\requirePermissions.js:17:5)
-    at async C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:264:17
+[debug] [2026-03-09T17:44:18.859Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
 [error] 
-[error] Error: Failed to authenticate, have you run firebase login?
+[error] Error: Not in a Firebase app directory (could not locate firebase.json)
+[debug] [2026-03-09T17:46:47.352Z] ----------------------------------------------------------------------
+[debug] [2026-03-09T17:46:47.355Z] Command:       H:\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting
+[debug] [2026-03-09T17:46:47.356Z] CLI Version:   15.9.0
+[debug] [2026-03-09T17:46:47.356Z] Platform:      win32
+[debug] [2026-03-09T17:46:47.356Z] Node Version:  v24.13.1
+[debug] [2026-03-09T17:46:47.356Z] Time:          Mon Mar 09 2026 23:46:47 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-03-09T17:46:47.356Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-03-09T17:46:47.358Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[error] 
+[error] Error: Not in a Firebase app directory (could not locate firebase.json)
